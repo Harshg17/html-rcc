@@ -1,0 +1,41 @@
+body{
+    background-color: #F6F4EB;
+}
+#box{border: solid;
+    background-color: #FF6969;
+}
+#table-title{
+    text-align: center;
+}
+.courses{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.courses a{
+    color: black;
+    text-decoration: none;
+}
+.courses a:hover{
+    color: #141E46;
+    text-decoration: underline;
+}
+#rccimage{
+    height: 150px;
+    padding: 1px;
+    border: solid 10px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#classtitle{
+    font-size: 50px;
+    font-family: 'Charm', cursive;
+    text-align: center;
+    background-color: #91C8E4;
+    border: solid;
+}
+.courses > ul {
+    color: black;
+}
+
