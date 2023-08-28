@@ -59,3 +59,13 @@ body{
     text-decoration:underline;
     color: aquamarine;
 }
+@media(min-width:319px) and (max-width:480px){
+    #rlb{
+        height: 100px;
+        width: 200px;
+    }
+    .rtt{
+        font-size: 100px;
+    }
+    
+}
