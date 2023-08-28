@@ -65,7 +65,8 @@ body{
         width: 200px;
     }
     .rtt{
-        font-size: 100px;
+        font-size: 50px;
+        position: relative;
+        top: 15px;
     }
-    
 }
