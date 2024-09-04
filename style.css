@@ -1,0 +1,52 @@
+.navbox{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(158, 158, 158);
+    padding:5px;
+}
+.navbox .nav{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbox a{
+    color: aliceblue;
+    padding: 2px 6px;
+    text-decoration: none;
+}
+.navbox a:hover{
+    color: black;
+}
+.start{
+    font-family:'Dancing Script', cursive;;
+    padding: 5px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+
+body{
+    background-color: bisque;
+}
+@media(min-width:319px) and (max-width:480px){
+    .navbox{
+        height: 50px;
+    }
+    
+}
+
+#pic > img{
+    height: 50%;
+    width: 100%;
+}
+#cont{
+    display: grid;
+    
+}
+#cont >img{
+    width: 300px;
+}
